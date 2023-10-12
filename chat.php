@@ -8,9 +8,9 @@ if (!isset($_SESSION['user'])) {
 
 // Chat üzenetek lekérdezése az adatbázisból
 $servername = "localhost";
-    $username = "gabxway";
-    $password = "Hall2000-";
-    $dbname = "gabxway";
+    $username = "";
+    $password = "";
+    $dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
