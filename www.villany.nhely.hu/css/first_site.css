@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300&display=swap&subset=latin-ext');
+	html, body {
+		margin: 0;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+	body {
+	background-image: url("hater.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	font-size: 40px;
+	font-family: 'Work Sans';
+	}
+	.kozepe {
+		flex-grow: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+	}
+	.fejlec {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		font-size: 16px;
+		font-family: arial;
+	}
+	.lablec{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		font-size: 16px;
+		font-family: arial;
+	}
+	video {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		min-width: 100%;
+		min-height: 100%;	
+		z-index: -100;
+	}
+	a {
+		color: rgb(97, 187, 172);
+		text-decoration: none;
+	}
+
+	.menupont {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.gombok{
+		color: rgb(252, 255, 254);
+		font-size: 16px;
+		font-family: arial;
+		background-color: rgba(13, 148, 130, 0.342);
+		padding: 10px 30px;
+		width: 150px;
+		display: inline-block;	
+	}
+	.gombok:hover {
+		background-color: rgba(0, 0, 0, 0.4);
+		font-size: 18px;
+	}
+	.menupont:hover {
+		font-size: 18px;
+		font-style: arial;
+		color: gray;
+	}
+	
