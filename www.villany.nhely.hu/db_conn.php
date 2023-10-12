@@ -1,10 +1,10 @@
 <?php
 
 $sname= "localhost"; //kiszolgáló
-$unmae= "gabxway"; // USER NAME
-$password = "hall2000";
+$unmae= ""; // USER NAME
+$password = "";
 
-$db_name = "gabxway";  //adatbázis
+$db_name = "";  //adatbázis
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
