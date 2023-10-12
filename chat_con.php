@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "gabxway";
-$password = "Hall2000-";
-$dbname = "gabxway";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Kapcsolódás az adatbázishoz
 $conn = new mysqli($servername, $username, $password, $dbname);
